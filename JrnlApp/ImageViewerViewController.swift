@@ -1,11 +1,3 @@
-//
-//  ImageViewerViewController.swift
-//  JrnlApp
-//
-//  Created by Абзал Айтмолданов on 9/22/20.
-//  Copyright © 2020 Абзал Айтмолданов. All rights reserved.
-//
-
 import UIKit
 
 class ImageViewerViewController: UIViewController {
@@ -16,15 +8,13 @@ class ImageViewerViewController: UIViewController {
     
     override func viewDidLoad() {
       super.viewDidLoad()
-      
-      // Do any additional setup after loading the view.
       setupImageView()
     }
     
     private func setupImageView() {
-      guard let name = imageName else { return }
+      guard let nameImage = imageName else { return }
       
-      if let image = UIImage(named: name) {
+      if let image = UIImage(named: nameImage) {
         imageView.image = image
       }
     }

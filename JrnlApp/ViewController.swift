@@ -1,11 +1,3 @@
-//
-//  ViewController.swift
-//  JrnlApp
-//
-//  Created by Абзал Айтмолданов on 9/22/20.
-//  Copyright © 2020 Абзал Айтмолданов. All rights reserved.
-//
-
 import UIKit
 
 struct  Item {
@@ -41,18 +33,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
                         Item(Imagename: "7"),
                         Item(Imagename: "8"),
                         Item(Imagename: "9"),
-                        Item(Imagename: "10"),
-                        Item(Imagename: "11"),
-                        Item(Imagename: "12"),
-                        Item(Imagename: "13"),
-                        Item(Imagename: "14"),
-                        Item(Imagename: "15"),
-                        Item(Imagename: "16"),
-                        Item(Imagename: "17"),
-                        Item(Imagename: "18"),
-                        Item(Imagename: "19"),
-                        Item(Imagename: "20"),
-                        Item(Imagename: "21")]
+                        Item(Imagename: "10")]
                         
     var collectionViewFlowLayout: UICollectionViewFlowLayout!
     let cellIdentifier = "ItemCollectionViewCell"
